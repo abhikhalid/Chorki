@@ -1,0 +1,162 @@
+.wrapper
+{
+    background : #f1f1f1;
+    width : 100%;
+    height : 100vh;
+    border-radius : 16px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+
+.users
+{
+    padding : 25px 30px;
+    width : 80%;
+    margin: 0 auto;
+    background : white;
+    
+}
+
+
+.users header,
+.users-list a
+{
+    display : flex;
+    align-items: center;
+    padding-bottom : 20px;
+    justify-content : space-between;
+    border-bottom : 1px solid #e6e6e6;
+}
+
+.wrapper img
+{
+    object-fit : cover;
+    border-radius: 50% ;
+    width: 47px;
+}
+
+:is(.users, .users-list) .content
+{
+    display : flex;
+    align-items : center;
+}
+
+
+.users header .content img
+{
+    height : 50px;
+    width : 50px;
+
+}
+
+:is(.users, .users-list) .details
+{
+    color : #000;
+    margin-left : 15px;
+    
+}
+
+:is(.users, .users-list) .details span
+{
+    font-size : 18px;
+    font-weight : 500;
+    
+}
+
+.users header .logout
+{
+    color : #fff;
+    font-size : 17px;
+    padding : 7px 15px;
+    background : red;
+    border-radius : 5px;
+}
+
+.users .search
+{
+    margin : 20px 0;
+    display : flex;
+    position : relative;
+    align-items : center;
+    justify-content : space-between;
+}
+
+.users .search .text
+{
+    font-size : 18px;
+}
+
+.users .search input
+{
+    position : absolute;
+    height : 42px;
+    width : calc(100% - 50px);
+    border : 1px solid #ccc;
+    padding : 0 13px;
+    font-size : 16px;
+    border-radius: 5px 0 0 5px;
+    outline : none;
+}
+
+.users .search button
+{
+    width : 47px;
+    height : 42px;
+    border : none;
+    outline : none;
+    color : #fff;
+    background : #333;
+    cursor : pointer;
+    font-size : 17px;
+    border-radius : 0 5px 5px 0;
+}
+
+.users-list
+{
+    max-height: 350px;
+    overflow-y : auto;
+    
+}
+
+.users-list::-webkit-scrollbar{
+    width  : 0px;
+}
+
+
+
+.user-hidden
+{
+    display : none !important;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.users-list2
+{
+    max-height: 350px;
+    overflow-y : auto;
+    display : none !important;
+    
+}
+
+.users-list2::-webkit-scrollbar{
+    width  : 0px;
+}
+
+
+
+
+
+
+
+
+.user-show
+{
+    display : block !important;
+}
