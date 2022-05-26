@@ -1,0 +1,43 @@
+.aboutContainer
+{
+    width : 100%;
+    height : 100%;
+    background-color: black;
+    /* padding : 90px; */
+    padding-bottom : 90px;
+     
+   
+}
+.about
+{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right : auto;
+    /* background-color : red; */
+    margin-top: 90px;
+
+}
+
+.about3
+{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right : auto;
+    
+    margin-top : 40px;
+}
+
+.heading1
+{
+    color : white;
+    position: relative;
+    
+}

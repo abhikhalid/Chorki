@@ -1,0 +1,100 @@
+.boroBalti
+{
+    background : #ffffff;
+    padding : 20px;
+}
+
+.balti
+{
+    text-transform: capitalize;
+    border : none;
+    outline : none;
+    letter-spacing: 2px;
+    width : 100%;
+    
+}
+
+.sotobalti
+{
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    margin-top : 31px;
+}
+
+
+.sotobaltiImage
+{
+    width : 50px;
+    border-radius : 50%;
+    object-fit: contain;
+    margin-right: 19px;;
+}
+
+.text123
+{
+    width : 100%;
+    height : 40px;
+    background : none;
+    font-size : 15px;
+    color : #111;
+    border : none;
+    border-bottom: 3px solid black;
+    
+}
+
+.text123:focus
+{
+    outline: none !important;
+}
+
+.btn123
+{
+    height: 30px;
+    width: 126px;
+    margin-right: 12px;
+    margin-top: 9px;
+    background: snow;
+    color: #7e7d7d;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0 3px 10px rgb(255 255 255);
+    border-radius: 0px;
+    outline: none;
+}
+
+.abc
+{
+    color: white;
+    background : blue;
+}
+
+
+
+.btnContainer
+{
+    margin-left : 1200px;
+    display:  none;
+}
+
+.commentBtnBalti
+{
+    display : flex;
+    margin-left : 38px;
+    margin-top : 9px;
+}
+
+.abhi
+{
+    display : block;
+}
+
+.btn123:hover
+{
+    color : black;
+    opacity : .8;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size : 16px;
+  }

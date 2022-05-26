@@ -1,0 +1,46 @@
+.table-container2
+{
+    background-color : #ffffff;
+    height : 100vh;
+    padding : 0 10%;
+    margin : 40px auto 0;
+    text-align : center;
+
+}
+
+.welcomeUser
+{
+    color : #111;
+    font-weight: bold;
+}
+
+.app__form
+{
+    padding : 20px;
+    /* position : fixed; */
+    bottom : 0;
+    z-index : 1;
+    background-color : #e9e9eb;
+    width : 80%;
+    margin : 0 auto;
+    
+}
+
+.app__formControl
+{
+    display : flex !important;
+    flex-direction : row !important;
+
+
+}
+
+.app__input
+{
+    flex : 1;
+}
+
+
+.app__iconButton
+{
+    flex : 0;
+}

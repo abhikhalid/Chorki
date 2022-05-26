@@ -1,0 +1,104 @@
+.tahmina
+{
+    background-color: black;
+    z-index:1;
+}
+
+.aboutContainer
+{
+    width : 100%;
+    height : 100%;
+    background-color: black;
+    /* padding : 90px; */
+    padding-bottom : 90px;
+     
+   
+}
+
+.about
+{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right : auto;
+    /* background-color : red; */
+    margin-top: 90px;
+
+}
+
+.about3
+{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left:auto;
+    margin-right : auto;
+    
+    margin-top : 40px;
+}
+
+.heading1
+{
+    color : white;
+    position: relative;
+    
+}
+
+.heading1:after
+{
+    position:absolute;
+    border-bottom: 3px solid tomato;
+    content: '';
+    width: 100%;
+     transform: translateX(-50%);
+     bottom: -15px;
+    left: 50%; 
+
+}
+
+.para
+{ 
+
+    color : gainsboro;
+}
+
+.para1
+{
+   margin-top: 60px;
+}
+
+.about-sub
+{
+    margin-top : 20px;
+}
+
+.about-sub >h2
+{
+    color : gainsboro;
+    margin-top : 30px;
+}
+
+.para2
+{
+    margin-top : 20px;
+}
+
+.abhi
+{
+    margin-right : 145px;
+}
+
+.abhi2
+{
+    margin-right : 220px;
+}
+
+.abhi3
+{
+    margin-right : 225px;
+}

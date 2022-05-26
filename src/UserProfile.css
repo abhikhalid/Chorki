@@ -1,0 +1,236 @@
+.fullProfile {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	/* margin-top:90px; */
+	margin-top : 50px;
+
+	padding : 20px;
+}
+
+.profile1 {
+	width: 70%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 8px;
+	padding: 39px;
+	
+}
+
+.divisionContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.division1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.accountForm {
+	background: #f9f9f9;
+	color: black;
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	/* background: rgba(0, 0, 0, 0.75); */
+	border-radius: 4px;
+	/* width: 500px; */
+	height: 439px;
+	padding: 60px 68px 40px;
+	margin-top: 34px;
+	margin-left: -118px;
+	border-radius: 8px;
+	position: relative;
+}
+
+.accountSubForm {
+	position: absolute;
+	margin-left: 10px;
+}
+
+.deviceForm {
+	background: #f9f9f9;
+	color: black;
+	border: 8px;
+	width: 298px;
+	margin-left: -118px;
+	display: flex;
+	flex-direction: column;
+	/* background: rgba(0, 0, 0, 0.75); */
+	border-radius: 4px;
+	/* width: 500px; */
+	height: 159px;
+	padding: 60px 68px 40px;
+	margin-top: 65px;
+}
+
+.purchaseForm {
+	background: #f9f9f9;
+	color: black;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px;
+	height: 130px;
+	padding: 60px 68px 40px;
+	margin-top: -246px;
+}
+
+.referralsForm {
+	background: #f9f9f9;
+	color: black;
+	width: 320px;
+
+	display: flex;
+	flex-direction: column;
+	/* background: rgba(0, 0, 0, 0.75); */
+	border-radius: 4px;
+	/* width: 500px; */
+	height: 71px;
+	padding: 60px 68px 40px;
+	margin-top: 20px;
+}
+
+.emailForm {
+	background: #f9f9f9;
+	color: black;
+	width: 320px;
+
+	width: 425px;
+	height: 10px;
+	padding-left: 35px;
+	padding-top: 30px;
+	padding-bottom: 53px;
+	margin-top: 20px;
+}
+
+.login__title {
+	margin-bottom: 29px;
+	font-size: 24px;
+	font-weight: 600;
+	color: crimson;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: -42px;
+	margin-top: -41px;
+}
+
+.login__group {
+	position: relative;
+	/* z-index: 10; */
+	display: flex;
+}
+.login__group__label {
+	position: absolute;
+	/* z-index: 150; */
+	color: #b3b3b3;
+	font-size: 0.9rem;
+	top: 16px;
+	left: 18px;
+	transition: all 300ms ease-in;
+}
+.login__group__input {
+	width: 91%;
+    height: 31px;
+    position: relative;
+    /* z-index: 100; */
+    border: none;
+    opacity: 1;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 50px;
+    padding: 28px;
+    background: #f7f8f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #000;
+    border: 1px solid black;
+}
+
+.login__group__input2
+{
+    width: 91%;
+    height: 31px;
+    position: relative;
+    z-index: 100;
+    border: none;
+    opacity: 1;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 50px;
+    padding: 20px;
+    background: #f7f8f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #000;
+    border: 1px solid black;
+
+}
+
+
+
+
+.login__group__input:focus + .login__group__label {
+	top: 15px;
+	font-size: 0.7rem;
+}
+
+.subscribeBtn {
+	padding: 10px;
+	font-size: 11px;
+	text-align: center;
+	width: 112px;
+	height: 24px;
+	background: #ed1f52;
+	color: #ffffff;
+	font-weight: bold;
+	border-style: solid;
+	border-radius: 0px;
+	border-width: 1px;
+	border-color: #ed1f52;
+}
+
+.helpInfo {
+	font-size: 14px;
+	color: #000;
+}
+
+.emailForm > a {
+	text-decoration: underline;
+	font-weight: 700;
+	padding-right: 3px;
+	font-size: 14px;
+}
+
+.helpLink {
+	color: black;
+	font-weight: bold;
+}
+
+.plan {
+	color: black;
+	margin-bottom: 15px;
+}
+
+
+.pencil {
+
+    margin-top: 29px;
+    width: 20px;
+    height: 15px;
+    margin-left: -31px;
+    z-index: 1000;
+
+}
+
+.sendMeMail
+{
+
+}

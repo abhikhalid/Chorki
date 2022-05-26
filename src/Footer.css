@@ -1,0 +1,99 @@
+.horizonal-line
+{
+    width : 100%;
+    color : grey;
+}
+
+.footerContainer
+{
+    background-color : rgb(0, 0, 0);
+    display : flex;
+    padding : 20px;
+    
+}
+
+.footer1
+{
+    width : 21%;
+    margin-top : 20px;
+}
+
+.footerBrandLogo
+{
+    width : 159px;
+    object-fit : contain;
+    cursor : pointer;
+}
+
+.footer2
+{
+    width : 75%;
+}
+
+.footerSocialMedia
+{
+    display : flex;
+    /* justify-content : space-around; */
+    cursor : pointer;
+}
+
+.socialIcon
+{
+    width : 35px;
+    object-fit: contain;
+    margin : 10px;
+}
+
+.footer2
+{
+    display : flex;
+    flex-direction: column;
+}
+
+.aboutSection
+{
+    display : flex;
+    justify-content : space-around;
+    color :white;
+    margin-top : 35px;
+    cursor : pointer;
+    margin-left : auto;
+    margin-right: auto;
+    
+}
+
+.aboutSection > h3
+{
+    margin-right : 100px;
+}
+
+.link123
+{
+    color : white;
+}
+
+.link123:hover
+{
+    color : tomato;
+}
+
+
+.aboutSection > Link:hover
+{
+    color : tomato;
+}
+
+.appleIcon
+{
+    display : flex;
+    justify-content : space-between;
+    margin-top: 20px;
+    cursor : pointer;
+}
+
+.socialIcon2
+{
+    width : 130px;
+    object-fit: contain;
+    margin : 10px;
+}

@@ -1,0 +1,142 @@
+
+
+.comment
+{
+    padding : 10px 10px 0 10px;
+}
+
+.comment:after {
+
+    content: " ";
+    display : table;
+    clear: both;
+
+}
+
+
+.comment-image
+{
+    width : 65px;
+}
+
+.comment-image img
+{
+    width : 50px;
+    border-radius : 50%;
+    object-fit: contain;
+}
+
+
+.comment-image,
+.comment-body
+{
+    float : left;
+}
+
+.comment_body
+{
+    display : flex;
+}
+
+.date
+{
+    margin-left: 20px;
+
+}
+
+.comment-body
+{
+    width : 80%;
+}
+
+.comment-body p
+{
+    margin-top: 1px;
+}
+
+.description1
+{
+    margin-top: 5px !important;
+    color : #111;
+    font-weight: 490;
+}
+
+.comment-info
+{
+    font-weight: bold;
+}
+
+.reactBtn
+{
+    margin-left : 65px;
+    
+    
+}
+
+
+.likeBtn
+{
+    width : 15px;
+    margin-top : 10px;
+   
+    padding : 10px;
+}
+
+
+.dislikeBtn
+{
+    width : 15px;
+    margin-top : 10px;
+   
+    padding : 10px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+   
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 50px;
+    background-color: #929292;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .threedot
+  {
+    width: 15px;
+    height: 17px;
+    margin-top: 10px;
+    margin-left: auto;
+    display: none;
+    
+  }
+
+  .comment-body:hover .threedot
+   {
+      display : block;
+  }
+  
+
+  .like_dislike
+  {
+    display: inline;
+    position: absolute;
+    margin-top: 18px;
+  }
+ 
+  

@@ -1,0 +1,98 @@
+
+.tablecontainer
+{
+    background-color : #32312f;
+    height : 100vh;
+    margin-top : 30px !important;
+}
+
+.table-container
+{
+    padding : 0 10%;
+    margin : 40px auto 0;
+}
+
+.heading
+{
+    font-size : 40px;
+    text-align: center;
+    color : #f1f1f1;
+    margin-bottom: 40px;
+}
+
+.table
+{
+    width : 100%;
+    border-collapse : collapse;
+}
+
+.table thead
+{
+    background-color : #ee2828;
+}
+
+.table thead tr th
+{
+    font-size : 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color : #FFFFFF;
+    opacity : 1;
+    padding: 12px;
+    vertical-align: top;
+    border : 1px solid #dee2e685;
+}
+
+.table tbody tr td
+{
+    font-size : 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color : #f1f1f1;
+    background-color : #3c3f44;
+    padding : 8px;
+    text-align : center;
+    border : 1px solid #dee2e685;
+}
+
+.table .text_open
+{
+    font-size : 14px;
+    font-weight: bold;
+    letter-spacing : 0.35px;
+    color : #FF1046;
+}
+
+.table tbody tr td .btn
+{
+    width : 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    background-color : #FF1046;
+    font-weight: medium;
+    color : #FFFFFF;
+    text-align : center;
+    vertical-align : middle;
+    user-select: none;
+    border : 1px solid transparent;
+    font-size : 14px;
+    opacity : 1;
+}
+
+.table tbody tr td .btn2
+{
+    width : 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    background-color : green;
+    font-weight: medium;
+    color : #FFFFFF;
+    text-align : center;
+    vertical-align : middle;
+    user-select: none;
+    border : 1px solid transparent;
+    font-size : 14px;
+    opacity : 1;
+}

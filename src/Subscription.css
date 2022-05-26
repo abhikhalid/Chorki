@@ -1,0 +1,396 @@
+.popup-view
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: 100000000; */
+    background: rgba(0,0,0,.95);
+    color: #fff;
+    overflow-y: scroll;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.subscribeHeader
+{
+    margin-top: 89px;
+    margin-left: 204px
+}
+.changeSubscription
+{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction: column;
+    margin-top : 150px;
+}
+
+.closeBtn
+{
+    object-fit: contain;
+    position: fixed;
+    top: 47px;
+    right: 60px;
+    width: 28px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.divisionAbhiContainer
+{
+    display : flex;
+    flex-direction: row;
+}
+
+
+
+.divisionAbhi1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.divisionAbhi2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+
+}
+
+.planForm {
+	
+    color: white;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    /* background: rgba(0, 0, 0, 0.75); */
+    border-radius: 4px;
+    /* width: 500px; */
+    height: 300px;
+    padding: 60px 68px 40px;
+    margin-top: -142px;
+    margin-left: 934px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.select-platform-select-container
+{
+    border-radius : 30px;
+    padding-right: 20px;
+    background : transparent;
+    border : 1px solid #fff;
+}
+
+.planSelect
+{
+    border: none;
+    background: transparent;
+    color: #fff;
+    height: 55px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 30px;
+    outline : none;
+
+}
+
+.price_feature_monthly
+{
+    margin-top : 25px;
+    display : none;
+}
+
+.monthly
+{
+    display : block;
+}
+
+.price_feature_halfYearly
+{
+    display : none;
+}
+
+.halfYearly
+{
+    display : block;
+}
+
+.price_feature_yearly
+{
+    display : none;
+}
+
+.yearly
+{
+    display : block;
+}
+
+.price_feature_yearly_plus
+{
+    display : none;
+}
+
+.yearlyPlus
+{
+    display : block;
+}
+
+.price
+{
+    /* width : 10px; */
+
+    margin-left: -3px;
+    margin-top : 10px;
+    
+
+}
+
+.featureList
+{
+    margin-top : 25px;
+    
+}
+
+.feature
+{
+    display: flex !important;
+    /* justify-content: center; */
+    flex-direction: row;
+    margin-bottom : 10px;
+    color : white;
+    
+}
+
+.paymentTickImage
+{
+    width : 15px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.feature > p
+{
+    color : #fff !important;
+    margin-bottom : 1px;
+}
+
+.promoContainer
+{
+    display: flex;
+    
+}
+
+.addPromoInput
+{
+  
+    top: 200px;
+    right: 399px;
+    background: transparent;
+    border-radius: 28px;
+    border: 1px solid #FF004C;
+    padding: 18px 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 350px;
+    position: fixed;
+    z-index: 10;
+    outline: none;
+
+
+}
+
+.applyCodeBtn
+{
+    position: fixed;
+    top: 198px;
+    right: 185px;
+    border-radius: 28px;
+    border: 1px solid #FF004C;
+    background: transparent;
+    color: #FF004C;
+    font-weight: 700;
+    font-size: 20px;
+    width: 150px;
+    padding: 15px;
+
+}
+
+.finalPayment
+{
+    display : flex;
+    flex-direction: column;
+
+}
+
+
+.bkashPayment
+{
+    display : flex;
+    
+}
+
+.bkashTitle
+{
+     /* margin-left : 10px; */
+     
+}
+
+.bkashRadio
+{
+    background-color: #fff;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+
+
+
+.bkashImage
+{
+    background-color: #fff;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+.checkOutButton1
+{
+    border-radius: 14px;
+    margin-top: 31px;
+    margin-left: 40px !important;
+    padding: 15px;
+    width: 371px;
+    margin-left: 91px;
+    color: #fff;
+    font-weight: 800;
+
+    display : none;
+}
+
+.monthlybtn1 {
+
+    display : block;
+}
+
+.checkOutButton2
+{
+    border-radius: 14px;
+    margin-top: 31px;
+    margin-left: 40px !important;
+    padding: 15px;
+    width: 371px;
+    margin-left: 91px;
+    color: #fff;
+    font-weight: 800;
+
+    display : none;
+}
+
+.monthlybtn2 {
+
+    display : block;
+}
+     
+.checkOutButton3
+{
+    border-radius: 14px;
+    margin-top: 31px;
+    margin-left: 40px !important;
+    padding: 15px;
+    width: 371px;
+    margin-left: 91px;
+    color: #fff;
+    font-weight: 800;
+
+    display : none;
+}
+
+.monthlybtn3 {
+
+    display : block;
+}
+.checkOutButton4
+{
+    border-radius: 14px;
+    margin-top: 31px;
+    margin-left: 40px !important;
+    padding: 15px;
+    width: 371px;
+    margin-left: 91px;
+    color: #fff;
+    font-weight: 800;
+
+    display : none;
+}
+
+.monthlybtn4 {
+
+    display : block;
+}
+     
+.nagadTitle
+{
+    margin-left : 20px;
+}
+
+.cardPayment
+{
+    display : flex;
+    flex-direction: column;
+}
+.othercardTitle
+{
+    margin-left : 108px;
+    margin-top:16px;
+    margin-bottom: 10px;
+}
+
+.cardSubPayment
+{
+    display : flex;
+    flex-direction : row;
+    
+}
+
+.otherRadio
+{
+    margin-left: 10px;
+    padding: 30px;
+}
+
+
+
+.otherImage
+{
+    width: 600px;
+    object-fit: contain;
+    border-radius: 2px;
+    margin-left: 102px;
+}
+
+.checkOutButton2
+{
+    border-radius: 14px;
+    margin-top: 31px;
+    margin-left: 7x;
+    padding: 15px;
+    width: 371px;
+    margin-left: 91px;
+    color: #fff;
+    font-weight: 800;
+}
